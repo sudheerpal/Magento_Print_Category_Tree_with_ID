@@ -1,11 +1,10 @@
-# Magento-Print-Category-Tree-with-ID
+# Sudheer Pal <sudheerpal2@gmail.com> 
+Using this script you can print all category in a magento store with all the child in tree structure.
 
+Attributes used in script are-
+Count of product in particular category
+ID of the particular category
+URL of the category
 
-Description will come soon. 
+You can hard code category ID, in case you are looking to print a partcular tree.
 
-
-
-
-
-
-For any issue email @ sudheerpal2@gmail.com
