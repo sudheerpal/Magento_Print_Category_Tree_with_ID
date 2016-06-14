@@ -1,4 +1,4 @@
-# Magento script printing Category in Tree Structure with product count & ID
+# Script printing category in tree structure with product count & ID
 
 Using this script you can print all category in a magento store with all the child in tree structure.
 
