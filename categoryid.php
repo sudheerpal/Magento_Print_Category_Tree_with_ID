@@ -18,7 +18,7 @@ function  get_categories($categories) {
         $count = $cat->getProductCount();
         $array .= '<li>'.
         '<a href="' . Mage::getUrl($cat->getUrlPath()). '">' .
-                  $category->getName() . "(".$category->getId().")</a>\n";
+                  $category->getName() . "(".$category->getId().") (".$count.")</a>\n";
         if($category->hasChildren()) {
             $children = Mage::getModel('catalog/category')->getCategories($category->getId());
              $array .=  get_categories($children);
